@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_ones",
+  "info": {
+    "name": "section one"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

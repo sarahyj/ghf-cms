@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `logo` model.
+ * Lifecycle callbacks for the `header` model.
  */
 
 module.exports = {

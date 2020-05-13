@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/logo",
-      "handler": "logo.find",
+      "path": "/header",
+      "handler": "header.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/logo",
-      "handler": "logo.update",
+      "path": "/header",
+      "handler": "header.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/logo",
-      "handler": "logo.delete",
+      "path": "/header",
+      "handler": "header.delete",
       "config": {
         "policies": []
       }

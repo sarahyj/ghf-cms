@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "logos",
+  "collectionName": "headers",
   "info": {
-    "name": "logo"
+    "name": "Header"
   },
   "options": {
     "increments": true,
@@ -19,6 +19,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "navigationOne": {
+      "type": "string"
+    },
+    "navigationTwo": {
+      "type": "string"
+    },
+    "navigationThree": {
+      "type": "string"
+    },
+    "navigationFour": {
+      "type": "string"
     }
   }
 }
